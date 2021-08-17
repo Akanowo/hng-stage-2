@@ -21,6 +21,27 @@ a:link, a:visited {
 }
 
 
+/* HNG */
+
+.hng-details {
+  width: 100%;
+  text-align: center;
+}
+
+.hng-details .logo {
+  width: 60%;
+  margin: 10px auto;
+}
+
+.hng-details .logo img {
+  width: 100%;
+}
+
+.hng-details a {
+  display: block;
+}
+
+
 /* Resume Styles */
 
 /* Top Section */
