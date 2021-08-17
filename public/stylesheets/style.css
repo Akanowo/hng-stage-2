@@ -141,3 +141,14 @@ section {
 /* a {
   color: #00B7FF;
 } */
+
+
+@media screen and (max-width: 576px) {
+  .job .section-body {
+    grid-template-columns: auto auto;
+  }
+
+  .job .section-body {
+    padding-left: 0px !important;
+  }
+}
