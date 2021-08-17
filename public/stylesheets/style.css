@@ -1,8 +1,143 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/* General Styles */
+
+* {
+  box-sizing: border-box;
 }
 
-a {
-  color: #00B7FF;
+body {
+  font: 15px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  background-color: rgb(58, 58, 58);
 }
+
+.divider {
+  width: 100%;
+  height: 4px;
+  background-color: #2323d3;
+}
+
+a:link, a:visited {
+  color: #000;
+}
+
+
+/* Resume Styles */
+
+/* Top Section */
+
+.resume {
+  max-width: 900px;
+  background-color: #fff;
+  padding: 40px;
+  margin: 10px auto;
+}
+
+
+.resume .profileImg {
+  margin-top: 10px !important;
+}
+
+.resume .profileImg, .section-header {
+  display: flex;
+  align-items: center;
+}
+
+.resume .profileImg img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border: 3px solid #2323d3;
+}
+
+section {
+  margin-top: 50px;
+}
+
+.section-title {
+  margin: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 18px;
+  flex-basis: 40%;
+}
+
+.section-body {
+  padding-left: 20px;
+  line-height: 25px;
+}
+
+
+/* Into */
+
+.intro {
+  width: 100%;
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.intro .bio {
+  color: rgb(223, 132, 14);
+  font-size: 20px;
+}
+
+.intro .work-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 100%;
+}
+
+.intro .work-info .item {
+  padding: 5px;
+  margin: 5px;
+}
+
+
+/* work experience */
+.work-experience .work-place-title {
+  font-weight: bold;
+}
+
+.work-experience .work-details {
+  margin-bottom: 20px;
+}
+
+
+/* Job */
+.job {
+  max-width: 100%;
+}
+
+.job .section-body {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.job .section-body .skill, .language .section-body .skill {
+  background-color: rgb(146, 146, 146);
+  color: #fff !important;
+  border-radius: 50%;
+  width: max-content;
+  margin: 10px;
+  padding: 15px;
+}
+
+/* Association */
+
+.association-title {
+  font-weight: bold;
+}
+
+/* contact form */
+.form-group, #submitBtn {
+  margin: 10px;
+}
+
+/* a {
+  color: #00B7FF;
+} */
